@@ -1,0 +1,98 @@
+/* Task 2.1*/
+span {
+    display: inline-block;
+    text-align: center;
+    background-color: bisque;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    width: 200px;
+    margin-left: 20px;
+    /*height: 200px;*/
+}
+
+.open {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.rubik {
+    font-family: 'Rubik Pixels', sans-serif;
+}
+
+.sedwick {
+    font-family: 'Sedgwick Ave Display', sans-serif;
+}
+
+.dancing {
+    font-family: 'Dancing Script', sans-serif;
+}
+
+.fjalla {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.indie {
+    font-family: 'Indie Flower', sans-serif;
+}
+
+/* Task 2.2*/
+.wrapper {
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.square-circle {
+    height: 100px;
+    width: 100px;
+    background-color: #d46969;
+    margin: 50px;
+    border: 1px solid #d46969;
+}
+
+.square-circle:hover {
+    border-radius: 50%;
+    border: 1px solid #b9abab;
+    background-color: #b9abab;
+    transition: 3s;
+}
+
+/*Task 2.3*/
+.widgets {
+    padding: 90px 0;
+    /*height: 200px;*/
+    width: 90%;
+    background-color: #5a88fd;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    margin: 10px auto;
+}
+
+.main > div {
+    width: 28%;
+    padding: 100px 0;
+    background-color: #304d93;
+    text-align: center;
+}
+
+.contact {
+    height: 200px;
+    width: 90%;
+    background-color: #5a88fd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.widgets, .main > div, .contact {
+    font-size: 30px;
+    color: white;
+}
