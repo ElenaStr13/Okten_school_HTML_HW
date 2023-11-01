@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+}
+.up {
+    width: 100vw;
+    height: 50vh;
+    background-color: #e39aa7;
+}
+
+.down {
+    width: 100vw;
+    height: 50vh;
+    background-color: black;
+    color: white;
+}
+.up, .down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+p {
+    width: 70%;
+    font-size: 20px;
+    text-align: center;
+}
