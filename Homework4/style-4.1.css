@@ -1,0 +1,62 @@
+body {
+    font-size: 20px;
+}
+.wrapper {
+    width: 40%;
+    margin: 0 auto;
+    border: 1px solid #b9b5b5;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+form {
+    margin-top: 10vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+form input {
+    height: 7vh;
+    border: 1px solid grey;
+}
+.input-btn {
+    margin-top: 2vh;
+    height: 7vh;
+    border: 1px solid #5a88fd;
+    border-radius: 5px;
+    background-color: #5a88fd;
+    color: white;
+    font-size: 20px;
+}
+p {
+    color: grey;
+}
+.facebook {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 5vh;
+}
+.facebook img {
+    width: 2vw;
+}
+form a {
+    color: #3656af;
+}
+a {
+    text-decoration: none;
+}
+.footer {
+    width: 40%;
+    margin: 2vh auto;
+    border: 1px solid #b9b5b5;
+    padding: 20px;
+    text-align: center;
+}
+.footer a {
+    color: #94adee;
+}
