@@ -1,0 +1,59 @@
+body {
+    font-family: Inter;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.image-card {
+    width: 60px;
+    height: 60px;
+    border: 4px solid #554C4C;
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 10px;
+    position: absolute;
+    z-index: 100;
+}
+.card-chess, .card-game, .card-battle {
+    position: relative;
+}
+.card-chess > .image-card {
+    left: 120px;
+    top: -40px;
+}
+.card-game > .image-card {
+    left: 120px;
+    top: -40px;
+
+}
+.card-battle > .image-card {
+    left: 130px;
+    top: -40px;
+}
+.card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 4px solid #554C4C;
+    width: 320px;
+    height: 490px;
+    position: relative;
+    z-index: 1;
+}
+.card-chess > .card-text, .card-chess > .image-card {
+    border: 4px solid #65856E;
+}
+.title {
+    margin-bottom: 0;
+}
+.text {
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}

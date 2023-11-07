@@ -1,0 +1,22 @@
+body {
+    font-size: 18px;
+}
+.one-part > li:nth-child(odd) {
+    color: pink;
+}
+
+.two-part > li:nth-child(even) {
+  font-size: 22px;
+}
+
+.three-part > li:nth-child(2n+5)::after {
+    content: " !";
+}
+
+.four-part > li:last-child {
+    color: #b43eb4;
+}
+.five-part > li:first-letter {
+    color: #e53468;
+    font-size: 30px;
+}
