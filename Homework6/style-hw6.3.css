@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    font-family: "Inter";
+    font-size: 20px;
+    color: white;
+}
+header, footer {
+    height: 10vh;
+    width: 98vw;
+
+}
+header {
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+}
+span {
+    height: 8vh;
+    width: 10vw;
+}
+span, footer {
+    border-radius: 20px;
+    border: 1px solid #5a88fd;
+    background-color: #5a88fd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+}
+.banner {
+    height: 44vh;
+    width: 98vw;
+    background-color: #8fa7e6;
+    border: 1px solid #8fa7e6;
+    border-radius: 10px;
+}
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 1vw;
+}
+p {
+    height: 10vh;
+    width: 48vw;
+    background-color: #8ad4eb;
+    border: 1px solid #8ad4eb;
+    border-radius: 10px;
+}
+.banner, p {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+@media screen and (max-width: 768px) and (min-width: 481px) {
+    .articles {
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .articles > div {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 1vh;
+        margin-top: 1vh;
+    }
+    p {
+        height: 30vh;
+        width: 18vw;
+        writing-mode: vertical-lr;
+        justify-content: flex-start;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        height: 20vh;
+        flex-direction: column;
+        margin-bottom: 1vh;
+    }
+    span {
+        width: 98vw;
+        height: 5vh;
+        border-radius: 5px;
+    }
+    .banner {
+        height: 10vh;
+    }
+    .articles {
+        flex-direction: column;
+    }
+    .articles > div {
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    p {
+        width: 98vw;
+    }
+    .banner, p {
+        justify-content: center;
+        align-items: center;
+    }
+    footer {
+        height: 5vh;
+    }
+}
