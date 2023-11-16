@@ -1,8 +1,7 @@
 * {
-    font-family: "Rubik";
+    font-family: 'Rubik', 'Open Sans';
     margin: 0;
 }
-
 /*header*/
 .logo {
     margin-top: 2.5vh;
@@ -52,12 +51,12 @@ h1 {
     font-weight: 700;
     padding-top: 5.4vh;
     padding-bottom: 3.4vh;
-    /*padding-left: 13.5vw;*/
 }
 
 .prepayment > p {
     color: #0E2F4B;
-    font-family: "Open Sans";
+    font-family: 'Open Sans', sens-serif;
+;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -91,7 +90,6 @@ h1 {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-
     background-color: white;
     padding: 2.5vh 2vw;
     border-radius: 10px;
@@ -135,7 +133,7 @@ h2 {
 }
 
 .post-service > div > p {
-    font-family: "Open Sans";
+    font-family: 'Open Sans', sens-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -196,7 +194,7 @@ h2 {
 
 .business > p {
     color: #99A2AA;
-    font-family: Open Sans;
+    font-family: 'Open Sans', sens-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -219,7 +217,6 @@ button {
 }
 
 /*article*/
-
 .article {
     margin: 0 auto;
     background: #FDC13D;
@@ -244,7 +241,7 @@ h4 {
 
 .article > p {
     color: #0E2F4B;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sens-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -346,7 +343,7 @@ h5 {
 
 .new-img > div {
     color: #0E2F4B;
-    font-family: "Open Sans";
+    font-family: 'Open Sans', sens-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -359,7 +356,7 @@ h5 {
 
 .new-text > p {
     color: #99A2AA;
-    font-family: "Open Sans";
+    font-family: 'Open Sans', sens-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -433,7 +430,7 @@ h5 {
 }
 .contact-text {
     color: #0E2F4B;
-    font-family: "Open Sans";
+    font-family: 'Open Sans', sens-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
